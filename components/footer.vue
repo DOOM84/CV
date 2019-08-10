@@ -55,8 +55,8 @@
     <!-- //contact -->
     <div class="cpy-right text-center">
         <div class="container">
-            <p class="py-md-5 py-4">© {{ new Date().getFullYear() }} | <small><small>Design by
-              <a href="http://w3layouts.com"> W3layouts.</a></small></small>
+            <p class="py-md-5 py-4">© {{ new Date().getFullYear() }} | {{getLang(location, 'sphere')}} | <small><small>Design by
+              <a target="_blank" href="http://w3layouts.com"> W3layouts.</a></small></small>
             </p>
         </div>
     </div>

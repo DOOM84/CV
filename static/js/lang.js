@@ -4,9 +4,9 @@ export default {
         'welcome': 'Welcome',
         'sphere': 'Vue.js, Laravel, PHP, Nuxt.js, Back-end, Front-end development',
         'about': 'About',
-        'about_work': 'PHP development of Web-applications with Laravel framework. ' +
-            'I work with MYSQL, develop own CMS, use front-end technologies like CSS, JavaScript, ' +
-            'AJAX, Jquery, Vue.js, HTML markup language.',
+        'about_work': 'Development of Web-applications with Laravel, Vue.js, Nuxt.js frameworks. ' +
+            'I work with MYSQL, PHP. Develop own CMS, use front-end technologies like CSS, JavaScript, ' +
+            'AJAX, Jquery, HTML markup language.',
         'quote': 'To make a reasonable choice we must first of all know what is non-essential',
         'quote_author': 'Immanuel Kant',
         'information': 'Information',
@@ -102,9 +102,9 @@ export default {
         'welcome': 'Ласкаво просимо',
         'sphere': 'Vue.js, Laravel, PHP, Nuxt.js, Back-end, Front-end розробка',
         'about': 'Про мене',
-        'about_work': 'Займаюся PHP розробкою Web-додатків за допомогою фреймворка Laravel.' +
-            'Працюю з MYSQL. Створюю власні CMS. Використовую фронтенд технології CSS, JavaScript, AJAX, Jquery, Vue.js, ' +
-            'мова розмітки HTML.',
+        'about_work': 'Займаюся розробкою Web-додатків за допомогою фреймворків Laravel, Vue.js, Nuxt.js. ' +
+            'Працюю з MYSQL, PHP. Створюю власні CMS. Використовую фронтенд технології CSS, JavaScript, AJAX, Jquery, ' +
+            'мову розмітки HTML.',
         'quote': 'Щоб зробити розумний вибір, треба перш за все знати, без чого можна обійтися',
         'quote_author': 'Іммануїл Кант',
         'information': 'Інформація',
@@ -199,8 +199,8 @@ export default {
         'welcome': 'Добро пожаловать',
         'sphere': 'Vue.js, Laravel, PHP, Nuxt.js, Back-end, Front-end разработка',
         'about': 'Обо мне',
-        'about_work': 'Занимаюсь PHP разработкой Web-приложений с помощью фреймворка Laravel.' +
-            'Работаю с MYSQL. Создаю собственные CMS. Использую фронтенд технологии CSS, JavaScript, AJAX, Jquery, Vue.js, ' +
+        'about_work': 'Занимаюсь разработкой Web-приложений с помощью фреймворков Laravel, Vue.js, Nuxt.js. ' +
+            'Работаю с MYSQL, PHP. Создаю собственные CMS. Использую фронтенд технологии CSS, JavaScript, AJAX, Jquery, ' +
             'язык разметки HTML.',
         'quote': 'Чтобы сделать разумный выбор, надо прежде всего знать, без чего можно обойтись',
         'quote_author': 'Иммануил Кант',
