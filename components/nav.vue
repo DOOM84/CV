@@ -1,6 +1,6 @@
 <template>
     <nav class="mnu mx-auto d-inline">
-        <notifications group="foo" animation-name="v-fade-left" position="top center" />
+        <notifications style="z-index: 100000000" group="foo" animation-name="v-fade-left" position="top center" />
         <label for="drop" class="toggle"><span class="fa fa-bars"></span></label>
         <input type="checkbox" id="drop">
         <ul class="menu pt-3">
@@ -116,7 +116,6 @@
                 });
                 this.$store.dispatch('auth/setLocation', lang);
                 this.checkActLang()
-
             },
         },
         mounted() {

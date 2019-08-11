@@ -35,10 +35,14 @@ export const actions = {
     const cookies = Cookie.parse(cookieStr || '') || {};
 
     const lang = cookies['lang'];
-        if(!lang)this.$cookiz.set('lang', 'ua', {
-        maxAge: 60 * 60 * 24 * 30
-    });
-        commit('SET_LOCATION', lang)
+
+        if(!lang){
+          this.$cookiz.set('lang', 'ua', {maxAge: 60 * 60 * 24 * 30});
+          commit('SET_LOCATION', 'ua')
+    }else{
+          commit('SET_LOCATION', lang)
+        }
+
 },
     setLocation({commit},lang){
         commit('SET_LOCATION', lang)

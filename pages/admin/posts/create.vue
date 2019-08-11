@@ -38,7 +38,7 @@
     <!--<no-ssr >
       <ckeditor  type="classic" v-model="controls.body" :upload-adapter="UploadAdapter"></ckeditor>
     </no-ssr>-->
-      <tinymce-editor v-model="controls.body" api-key='jzo2eedwn9qet3a83dmrcy1mbs31gdymmkcqi1rvyok6bzu6' :init="init"></tinymce-editor>
+      <tinymce-editor v-model="controls.body" api-key='5kh52nc702xzsw4u6h1urzmfn2zqo3p1x259aavj6o8c2n40' :init="init"></tinymce-editor>
 
       <div class="form-group pt-3">
 
