@@ -1,7 +1,7 @@
 <template>
   <div>
   <div :id="'comment' + comment.id" v-for="comment in comments[id]" :key="comment.id" class="media">
-    <img :src="'/images/avatars/' + comment.owner.avatar.img" alt="" class="img-fluid rounded" />
+    <img :src="comment.owner.avatar ? '/images/avatars/' + comment.owner.avatar.img : '/images/avatars/no-avatar.png'" alt="" class="img-fluid rounded" />
     <div class="media-body">
       <h5 class="mt-0">{{comment.owner.name}} <span style="color: darkgray"> {{comment.created_at}}</span>
         <button v-if="$auth.loggedIn" @click="answer(comment)" class="btn btn-link"
